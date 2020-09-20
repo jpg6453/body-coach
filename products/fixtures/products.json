@@ -1,0 +1,338 @@
+[
+  {
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+      "sku": "11654",
+      "name": "Easy Release Non-Stick All-Rounder Pan with Lid",
+      "description": "This all rounder pan is perfect for whole host of kitchen tasks. Batch cook pasta or cous cous, prep chicken, meat or veg or even poach salmon. The easy-lift non-stick system means every drop of goodness leaves the pan and makes it to your plate, so washing up is quick and easy. The grippy handle and shatter-resistant lid provide safety and durability meaning you use the pan with confidence - Winner!",
+      "price": 34.99,
+      "category": 1,
+      "rating": 4.6,
+      "image_url": "https://kitchen.thebodycoach.com/media/catalog/product/cache/c8f8c15a9e79808acc09656966b55d42/1/1/11654_all_rounder_pan_with_lid.png",
+      "image": "11654_all_rounder_pan_with_lid.png"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+      "sku": "11656",
+      "name": "Easy Release Non-Stick Stirfry",
+      "description": "You'll be bossing it in no time with this large 30cm stirfry pan. It's the ideal size for batch food prepping and thanks to the easy-lift non-stick system, the food just slides of the pan making washing up quick and easy too. With grippy, double riveted handles for strength and comfort you can confidenlty move a fully loaded pan around the kitchen.",
+      "price": 39.99,
+      "category": 1,
+      "rating": 4.6,
+      "image_url": "https://kitchen.thebodycoach.com/media/catalog/product/cache/c8f8c15a9e79808acc09656966b55d42/1/1/11656_large_stirfry.png",
+      "image": "11656_large_stirfry.png"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+      "sku": "11657",
+      "name": "Easy Release Non-Stick Sauté and Steamer Multipan",
+      "description": "Multi-functional as well as multi-tiered, this sauté pan is ideal for searing meat, fish and more with the advantage of an additional layer for steaming the perfect vegetable accompaniment. The heavy gauge aluminium ensures heat up is quick for superior cooking. Featuring easy-lift non-stick means food will just slide out of the pan so washing up will be effortless. The grippy handles add a pop of colour and are double riveted for maximum strength. The shatter-resistant glass lid lets you monitor the cooking process without releasing heat or moisture.",
+      "price": 49.99,
+      "category": 1,
+      "rating": 4.7,
+      "image_url": "https://kitchen.thebodycoach.com/media/catalog/product/cache/c8f8c15a9e79808acc09656966b55d42/u/n/untitled-1.png",
+      "image": "11657_easy_release_multipan.png"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+      "sku": "11658",
+      "name": "Easy Release Non-Stick 3 Piece Let's Get Started Set",
+      "description": "Consisting of 3 essential saucepans, this aluminium cookware set features easy-lift non-stick which allows food to just slide of the surface so washing up will be quick and easy. All pans come with shatter-resistant glass lids letting you monitor the food while it cooks, keeping in all the flavour and goodness. The grippy handles make the pans safe and comfortable to use and are double riveted for maximum strength.",
+      "price": 79.99,
+      "category": 1,
+      "rating": 4.8,
+      "image_url": "https://kitchen.thebodycoach.com/media/catalog/product/cache/c8f8c15a9e79808acc09656966b55d42/1/1/11658_3_piece_lets_get_started_set.png",
+      "image": "11658_3_piece_lets_get_started_set.png"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+      "sku": "47388",
+      "name": "Easy Release Non-Stick Square Grill Pan",
+      "description": "This cast aluminum 28cm square grillpan is the perfect way to grill meat, fish or veggies. The pan heats up rapidly and evenly to give great results and the easy-lift non-stick system ensures the food just slides out of the pan so it's easy to clean too.",
+      "price": 49.99,
+      "category": 1,
+      "rating": 4.5,
+      "image_url": "https://kitchen.thebodycoach.com/media/catalog/product/cache/c8f8c15a9e79808acc09656966b55d42/4/7/47388_28cm_square_grill_pan_-_high_angle_1.png",
+      "image": "47388_28cm_square_grill_pan_-_high_angle_1.png"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+      "sku": "11652",
+      "name": "Easy Release Non-Stick Frypan",
+      "description": "Cook like a boss with this easy-lift, non-stick frypan. It's made from heavy gauge aluminium and features a stylish matte exterior. The long lasting interior not only heats rapidly and evenly, the food just slides off making cleaning up quick and easy. The colourful grippy handles are slip-free and comfortable to use and double riveted for extra strength.",
+      "price": 19.99,
+      "category": 1,
+      "rating": 4.9,
+      "image_url": "https://kitchen.thebodycoach.com/media/catalog/product/cache/c8f8c15a9e79808acc09656966b55d42/1/1/11652_small_frypan.png",
+      "image": "11652_small_frypan.png"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+      "sku": "66795",
+      "name": "Easy Release Non-Stick Twin Fry Set",
+      "description": "Cook like a boss with this easy-lift, twin pack of non-stick frying pans. This set includes 22cm and 28cm frying pans, both made from heavy gauge aluminium with a stylish matte exterior. The pan interior is long lasting and heats rapidly and evenly. The smooth surface means the food just slides off making cleaning up quick and easy.  You can be sure of a comfortable, slip-free grip thanks to the colourful grippy handles. They're also double riveted for maximum strength.",
+      "price": 54.99,
+      "category": 1,
+      "rating": 4.8,
+      "image_url": "https://kitchen.thebodycoach.com/media/catalog/product/cache/c8f8c15a9e79808acc09656966b55d42/6/6/66795-main-image.png",
+      "image": "66795-main-image.png"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+      "sku": "47388",
+      "name": "Easy Release Non-Stick 5 Piece Pan Set",
+      "description": "This 5 piece cookware set will have you cooking like a boss in no time.  Made from heavy gauge aluminium, the pan set features stylish matte exterior. The long lasting interior not only heats rapidly and evenly, the food just slides off making cleaning up quick and easy. The colourful grippy handles are slip-free and comfortable to use and double riveted for extra strength. The cast aluminum 28cm square grill pan is the perfect way to grill meat, fish or veggies. The pan heats up rapidly and evenly to give great results.",
+      "price": 49.99,
+      "category": 1,
+      "rating": 4.7,
+      "image_url": "https://kitchen.thebodycoach.com/media/catalog/product/cache/c8f8c15a9e79808acc09656966b55d42/6/6/66798-main-image.png",
+      "image": "66798-main-image.png"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+      "sku": "47366",
+      "name": "Aerolift Ovenware Loaf Tin",
+      "description": "Raise your game and your dough with this cracking loaf tin. Every loaf will get a nice, even bake and will slide out with no fuss thanks to the hybrid non-stick surface. Pop it in the dishwasher when you're done for easy clean-up. What could be better?",
+      "price": 8.99,
+      "category": 2,
+      "rating": 4.7,
+      "image_url": "https://kitchen.thebodycoach.com/media/catalog/product/cache/c8f8c15a9e79808acc09656966b55d42/4/7/47366_loaf_tin.png",
+      "image": "47366_loaf_tin.png"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+      "sku": "47369",
+      "name": "Aerolift Ovenware Oven Tray",
+      "description": "No kitchen is complete without an oven tray. And don't worry, this one can take regular workouts in the kitchen. The carbon steel makes it super-durable so you can enjoy banging it in the oven. Food will slide off the Aerolift non-stick surface easier than a bicep curl and guarantees an easy clean-up.",
+      "price": 9.99,
+      "category": 2,
+      "rating": 4.8,
+      "image_url": "https://kitchen.thebodycoach.com/media/catalog/product/cache/c8f8c15a9e79808acc09656966b55d42/4/7/47369_oven_tray.png",
+      "image": "47369_oven_tray.png"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+      "sku": "47371",
+      "name": "Aerolift Ovenware 6 Cup Muffin Tin",
+      "description": "Choccy treat alert! Well, you can obviously make all kinds of treats in this no-fuss 6 cup muffin tin. And you don't have to worry about getting that even bake, the carbon steel body has got you covered. Speaking of covered, the Aerolift non-stick surface means you won't have to struggle getting your muffins out of the tin. They slide out, no problem!",
+      "price": 9.99,
+      "category": 2,
+      "rating": 4.7,
+      "image_url": "https://kitchen.thebodycoach.com/media/catalog/product/cache/c8f8c15a9e79808acc09656966b55d42/4/7/47371_6_cup_muffin_tin.png",
+      "image": "47371_6_cup_muffin_tin.png"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+      "sku": "47365",
+      "name": "Aerolift Ovenware 3 Piece Let's Get Started Set",
+      "description": "Get kitted out with this 3 Piece Let's Get Started Set. You'll get a small roaster, 6 cup muffin tin and an oven tray to cook up lots of winning dishes. Each piece heats quickly and evenly thanks to the carbon steel body, and the non-stick surface means food slides off nice and easy.",
+      "price": 29.99,
+      "category": 2,
+      "rating": 4.9,
+      "image_url": "https://kitchen.thebodycoach.com/media/catalog/product/cache/c8f8c15a9e79808acc09656966b55d42/4/7/47365_3_piece_lets_get_started_set.png",
+      "image": "47365_3_piece_lets_get_started_set.png"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+      "sku": "47365",
+      "name": "Aerolift Ovenware 2 Piece Let's Get Started Set",
+      "description": "This set is definitely a winner if you just need a couple of oven pieces in your life. The oven tray and large tray bake is a great starter set to get you making lots of different meals that you can just bang in the oven. Food glides off like silk and you'll get that lovely even bake thanks to the carbon steel body.",
+      "price": 19.99,
+      "category": 2,
+      "rating": 4.7,
+      "image_url": "https://kitchen.thebodycoach.com/media/catalog/product/cache/c8f8c15a9e79808acc09656966b55d42/4/7/47370_2_piece_lets_get_started_set.png",
+      "image": "47370_2_piece_lets_get_started_set.png"
+    }
+  },
+  {
+    "pk": 14,
+    "model": "products.product",
+    "fields": {
+      "sku": "47390",
+      "name": "Easy Grip Slotted Turner",
+      "description": "Show those pancakes, fritters and omelettes who's boss with this easy grip slotted turner. It's all about function with the elevated design which lets you rest it on the side of your pans.",
+      "price": 6.99,
+      "category": 3,
+      "rating": 4.9,
+      "image_url": "https://kitchen.thebodycoach.com/media/catalog/product/cache/c8f8c15a9e79808acc09656966b55d42/4/7/47390_easy_grip_slotted_turner.png",
+      "image": "47390_easy_grip_slotted_turner.png"
+    }
+  },
+  {
+    "pk": 15,
+    "model": "products.product",
+    "fields": {
+      "sku": "47391",
+      "name": " Easy Grip Solid Spoon",
+      "description": "This solid spoon makes stiring and serving soups, stews and curries a breeze! Protecting your worktop from drips is no bother with the elavated design which allows the spoon to rest on the side of your pans. Brill!",
+      "price": 6.99,
+      "category": 3,
+      "rating": 4.8,
+      "image_url": "https://kitchen.thebodycoach.com/media/catalog/product/cache/c8f8c15a9e79808acc09656966b55d42/4/7/47391_easy_grip_solid_spoon.png",
+      "image": "47391_easy_grip_solid_spoon.png"
+    }
+  },
+  {
+    "pk": 16,
+    "model": "products.product",
+    "fields": {
+      "sku": "47392",
+      "name": "Easy Grip Slotted Spoon",
+      "description": "It's a strainer spoon for your boiled potatoes and veg - simple but effective. And with all the veg we eat, it's an essential piece of kit! This easy grip slotted spoon can rest easily on the side of your pans and is dishwasher safe for easy clean-up.",
+      "price": 6.99,
+      "category": 3,
+      "rating": 4.6,
+      "image_url": "https://kitchen.thebodycoach.com/media/catalog/product/cache/c8f8c15a9e79808acc09656966b55d42/4/7/47392_easy_grip_slotted_spoon.png",
+      "image": "47392_easy_grip_slotted_spoon.png"
+    }
+  },
+  {
+    "pk": 17,
+    "model": "products.product",
+    "fields": {
+      "sku": "47393",
+      "name": "Easy Grip Pasta Server",
+      "description": "It's carbs o'clock! This server is specifically designed to handle all pasta types including spaghetti, which can sometimes be a struggle to handle. The clever design feature lets you rest the server on the side of your pans to avoid any mess and it's dishwasher safe for an easy clean-up.",
+      "price": 6.99,
+      "category": 3,
+      "rating": 4.9,
+      "image_url": "https://kitchen.thebodycoach.com/media/catalog/product/cache/c8f8c15a9e79808acc09656966b55d42/4/7/47393_easy_grip_pasta_server.png",
+      "image": "47393_easy_grip_pasta_server.png"
+    }
+  },
+  {
+    "pk": 18,
+    "model": "products.product",
+    "fields": {
+      "sku": "47394",
+      "name": "Easy Grip Whisk",
+      "description": "Whip up that pancake mix or those tasty sauces with this easy to handle whisk. With its sturdy handle you'll have a comfortable grip when it's time for a bit of elbow grease!",
+      "price": 6.99,
+      "category": 3,
+      "rating": 4.7,
+      "image_url": "https://kitchen.thebodycoach.com/media/catalog/product/cache/c8f8c15a9e79808acc09656966b55d42/4/7/47394_easy_grip_whisk.png",
+      "image": "47394_easy_grip_whisk.png"
+    }
+  },
+  {
+    "pk": 19,
+    "model": "products.product",
+    "fields": {
+      "sku": "66794",
+      "name": "Easy Grip 3 Piece Utensil Set",
+      "description": "This 3 piece kitchen utensil set is ideal companion for you non-stick cookware. The solid spoon and turner makes stirring and serving and flipping simple and mess free. Protecting your worktop from drips is no bother with the elevated design which allows them to rest on the side of your pans. The 12in lock & serve elevated tongs are convenient and practical. The elevated stand prevents the heads from laying on the work surface, keeping the area clean. The safety lock will prevent them from springing open when not in use. The silicone heads are heat resistant, perfect for turning steaks in your non-stick pan whilst the grippy handles ensure a comfortable confident grip.",
+      "price": 16.99,
+      "category": 3,
+      "rating": 5,
+      "image_url": "https://kitchen.thebodycoach.com/media/catalog/product/cache/c8f8c15a9e79808acc09656966b55d42/6/6/66794-main-image.png",
+      "image": "66794-main-image.png"
+    }
+  },
+  {
+    "pk": 20,
+    "model": "products.product",
+    "fields": {
+      "sku": "47379",
+      "name": "2 Piece Mix & Stir Spatula Set",
+      "description": "This 2 piece set is convenient and functional allowing you to stir, mix, scrape and more. The large heat resistant heads are made from flexible silicone making them perfect for all your prepping needs and ideal to use with non-stick cookware.",
+      "price": 7.99,
+      "category": 3,
+      "rating": 3,
+      "image_url": "https://kitchen.thebodycoach.com/media/catalog/product/cache/c8f8c15a9e79808acc09656966b55d42/4/7/47379_2_piece_mix_stir_spatula_set_-_grey.png",
+      "image": "47379_2_piece_mix_stir_spatula_set_-_grey.png"
+    }
+  },
+  {
+    "pk": 21,
+    "model": "products.product",
+    "fields": {
+      "sku": "47374",
+      "name": "Chopping Board",
+      "description": "Chop Chop! The chopping board with sorter tray is the perfect accessory when prepping. The detachable tray lets you easily separate food from waste and allows you to slide food straight into the pan or serve.",
+      "price": 14.99,
+      "category": 3,
+      "rating": 4.2,
+      "image_url": "https://kitchen.thebodycoach.com/media/catalog/product/cache/c8f8c15a9e79808acc09656966b55d42/4/7/47374_small_chopping_board.png",
+      "image": "47374_small_chopping_board.png"
+    }
+  },
+  {
+    "pk": 22,
+    "model": "products.product",
+    "fields": {
+      "sku": "47412",
+      "name": "Salad Lunch Box",
+      "description": "This no fuss salad lunch box is ideal for those healthy meals to take into work or on the go. It's so durable, functional and convenient that you can use this box in the microwave, freezer and dishwasher.",
+      "price": 5.49,
+      "category": 4,
+      "rating": 4.8,
+      "image_url": "https://kitchen.thebodycoach.com/media/catalog/product/cache/c8f8c15a9e79808acc09656966b55d42/s/a/salad-box.png",
+      "image": "salad-box.png"
+    }
+  },
+  {
+    "pk": 23,
+    "model": "products.product",
+    "fields": {
+      "sku": "47413",
+      "name": " 2 Piece Rectangular Container Set",
+      "description": "Keep food fresh with this 2 piece set which features a 500ml and 1500ml container. Made from safe and durable material, these containers are airtight and can be used in the microwave, freezer and dishwasher.",
+      "price": 6.99,
+      "category": 4,
+      "rating": 4.9,
+      "image_url": "https://kitchen.thebodycoach.com/media/catalog/product/cache/c8f8c15a9e79808acc09656966b55d42/2/-/2-pc-rectangular-container.png",
+      "image": "2-pc-rectangular-container.png"
+    }
+  },
+  {
+    "pk": 24,
+    "model": "products.product",
+    "fields": {
+      "sku": "47441",
+      "name": "4 Piece Rectangular Container Set - Grey",
+      "description": "I'm a big fan of prepping like a boss. Containers like these are perfect for that. This set comes with 4 920ml containers that are just the right size for ingredients, tasty meals or snacks. You can use them in the microwave, freezer and dishwasher for added convenience.",
+      "price": 14.99,
+      "category": 4,
+      "rating": 5,
+      "image_url": "https://kitchen.thebodycoach.com/media/catalog/product/cache/c8f8c15a9e79808acc09656966b55d42/4/-/4-pc-rectangular-container-grey.png",
+      "image": "4-pc-rectangular-container-grey.png"
+    }
+  }
+]

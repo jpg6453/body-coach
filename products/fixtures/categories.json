@@ -1,0 +1,34 @@
+[
+  {
+    "pk": 1,
+    "model": "products.category",
+    "fields": {
+      "name": "cookware",
+      "friendly_name": "Cookware"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.category",
+    "fields": {
+      "name": "ovenware",
+      "friendly_name": "Ovenware"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.category",
+    "fields": {
+      "name": "food_prep",
+      "friendly_name": "Food Prep"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.category",
+    "fields": {
+      "name": "storage",
+      "friendly_name": "Storage"
+    }
+  }
+]
