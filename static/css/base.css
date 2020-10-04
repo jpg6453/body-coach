@@ -1,0 +1,114 @@
+header.masthead {
+    position: relative;
+    overflow: hidden;
+    padding-top: calc(5rem + 72px);
+    padding-bottom: 7rem;
+    background: url('/media/hero_img.jpg') no-repeat fixed; ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 35rem;
+}
+
+header.masthead .masthead-content {
+    z-index: 1;
+    position: relative
+}
+
+header.masthead .masthead-content .masthead-heading {
+    font-size: 4rem
+}
+
+header.masthead .masthead-content .masthead-subheading {
+    font-size: 2rem
+}
+
+/*--------------------------------------------------------------------Hero image*/
+
+.hero-img {
+	background: url('/media/hero_img.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: center;
+	height: 40rem;
+	position: relative;
+}
+
+.opaque-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 35rem;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.15);
+}
+
+/*--------------------------------------------------------------------Hero Text*/
+
+.hero-text-row {
+	padding-top: 20rem;
+}
+
+.hero-text {
+	font-family: "Montserrat", sans-serif;
+	margin-bottom: 0;
+	font-weight: 500;
+	font-size: 4.5rem;
+	color: #000;
+}
+
+/*--------------------------------------------------------------------Quote*/
+
+.quote-container {
+    min-height:20rem;
+    max-height:30rem;
+}
+
+/*-------------------------------------------------------------------------CTA*/
+
+.call-to-action {
+	background-color: #2d2d30;
+	background: url('/media/nike_runner.jpg');
+	background-size: cover;
+	height: 15rem;
+}
+
+/*-------------------------------------------------------------------------footer*/
+
+.list-inline {
+	margin-top: 14px;
+}
+
+.social-links li a i {
+	width: 56px;
+	height: 56px;
+	padding: 24px 0;
+	margin: 20px;
+	border-radius: 50%;
+	font-size: 30px;
+	line-height: 12px;
+	text-align: center;
+	color: #2d2d30;
+	background: #d0d0d0;
+	transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+}
+
+.social-links li a i:hover {
+	background-color: transparent;
+	color: #d0d0d0;
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.footer-col {
+	margin-bottom: 2rem;
+}
+
+.copyright {
+	font-family: "Open Sans", sans-serif;
+}
