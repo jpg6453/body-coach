@@ -112,3 +112,38 @@ header.masthead .masthead-content .masthead-subheading {
 .copyright {
 	font-family: "Open Sans", sans-serif;
 }
+
+/*-------------------------------------------------------------------------products*/
+
+.details-box {
+	box-shadow:hsl(0, 0%, 80%) 0 0 16px;
+	background-color: #fff;
+	border-radius: 4px;
+	padding: 10px;
+    
+}
+
+.product-img {
+	background-color: #f0f0f0;
+	-webkit-box-shadow: -1px -3px 5px -2px rgba(214,214,214,1);
+    -moz-box-shadow: -1px -3px 5px -2px rgba(214,214,214,1);
+    box-shadow: -1px -3px 5px -2px rgba(214,214,214,1);
+}
+
+.separator {
+    border-top: 1px solid #d0d0d0;    
+}
+
+.product-price {
+    float: right;
+    margin: .375rem .75rem;
+}
+
+.product-name {
+    min-height: 38px;
+}
+
+.btn {
+    line-height: 1;
+    border-radius:20px;
+}
