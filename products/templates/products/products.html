@@ -2,10 +2,51 @@
 {% load static %}
 
 {% block page_header %}
-  <h1>Test heading</h1>
+  
 {% endblock %}
 
 {% block content %}
+
+<!--Breadcrumbs-->
+<div class="container col-xl-10">
+    <div class="row mb-5">
+        <nav aria-label="breadcrumb">
+            <ul class="breadcrumb">
+                <li class="breadcrumb-item"><a href="{% url 'home' %}">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Categories</a></li>
+                    {% if not categories %}
+                        <li class="breadcrumb-item">All Products</li>
+                    {% else %}
+                        {% for cat in categories %}
+                            <li class="breadcrumb-item">{{cat.friendly_name}}</li>
+                        {% endfor %}
+                    {% endif %}    
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<!--Heading-->
+
+<div class="col-xl-10 offset-1 mb-4">
+{% if not categories %}
+    <h1>All Products</h1>
+{% else %}
+    {% for cat in categories %}
+        <h1>{{cat.friendly_name}}</h1>
+    {% endfor %}   
+{% endif %}
+</div>
+
+<!--Category filter buttons-->
+<div class="col-12 text-center mb-5">
+    <a href="{% url 'products' %}" class="btn btn-blue-outline m-1">View all</a>
+    <a href="{% url 'products' %}?category=cookware" class="btn btn-blue-outline m-1">Cookware</a>
+    <a href="{% url 'products' %}?category=ovenware" class="btn btn-blue-outline m-1">Ovenware</a>
+    <a href="{% url 'products' %}?category=food_prep" class="btn btn-blue-outline m-1">Food Prep</a>
+    <a href="{% url 'products' %}?category=storage" class="btn btn-blue-outline m-1">Storage</a>
+</div>
+
 <div class="container col-xl-10">
     <div class="row">
         {% for product in products %}

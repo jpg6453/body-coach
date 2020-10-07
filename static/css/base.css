@@ -147,3 +147,29 @@ header.masthead .masthead-content .masthead-subheading {
     line-height: 1;
     border-radius:20px;
 }
+
+/*-------------------------------------------------------------------------breadcrumbs*/
+
+.breadcrumb {
+    background-color: transparent;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content:">";
+}
+
+/*-------------------------------------------------------------------------buttons*/
+
+.btn-blue-outline {
+    border: 1px solid #0F4AF2;
+    color: #0F4AF2;
+    font-size: 1rem;
+    padding: 0.25rem 0.75rem;
+}
+
+.btn-blue-outline:hover {
+  background-color: #0F4AF2;
+  color: white;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16), 0 2px 4px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16), 0 2px 4px rgba(0, 0, 0, 0.23);
+}
