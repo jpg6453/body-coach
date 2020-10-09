@@ -57,7 +57,7 @@
                     <div class="separator mt-3 mb-3"></div>
                     <div class="button-wrapper">
                         <a class="btn btn-outline-secondary add-btn">Add to Cart</a>
-                        <a class="btn btn-outline-success view-btn" href="#">View</a>
+                        <a class="btn btn-outline-success view-btn" href="{% url 'product_detail' product.id %}">View</a>
                         <h6 class="product-price"><strong>€{{ product.price }}</strong></h6>
                     </div>
                 </div>
