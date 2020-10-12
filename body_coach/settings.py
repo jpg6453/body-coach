@@ -27,7 +27,7 @@ SECRET_KEY = '(+p3#)9nz7k&0toj&djs9c6pnq-kyl81628g+)^$x7y9_pk(%^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['body-coach.heroku.com', 'localhost']
+ALLOWED_HOSTS = ['body-coach.herokuapp.com', 'localhost']
 
 
 # Application definition
