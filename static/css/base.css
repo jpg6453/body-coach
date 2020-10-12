@@ -82,6 +82,10 @@ header.masthead .masthead-content .masthead-subheading {
 
 /*-------------------------------------------------------------------------footer*/
 
+.footer-dark {
+    background-color: #0e0829;
+}
+
 .list-inline {
 	margin-top: 14px;
 }
@@ -92,11 +96,10 @@ header.masthead .masthead-content .masthead-subheading {
 	padding: 24px 0;
 	margin: 20px;
 	border-radius: 50%;
-	font-size: 30px;
+	font-size: 2.5rem;
 	line-height: 12px;
 	text-align: center;
-	color: #2d2d30;
-	background: #d0d0d0;
+	color: #d0d0d0;
 	transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
 	-webkit-transition: all 0.4s ease-in-out;
@@ -106,9 +109,9 @@ header.masthead .masthead-content .masthead-subheading {
 .social-links li a i:hover {
 	background-color: transparent;
 	color: #d0d0d0;
-	-webkit-transform: scale(1.1);
-	-ms-transform: scale(1.1);
-	transform: scale(1.1);
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
 }
 
 .footer-col {
