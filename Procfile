@@ -1,1 +1,1 @@
-web: gunicorn body-coach.wsgi:application
+web: gunicorn body_coach.wsgi:application
