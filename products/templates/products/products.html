@@ -13,7 +13,7 @@
         <nav aria-label="breadcrumb">
             <ul class="breadcrumb">
                 <li class="breadcrumb-item"><a href="{% url 'home' %}">Home</a></li>
-                <li class="breadcrumb-item"><a href="#">Categories</a></li>
+                <li class="breadcrumb-item"><a href="{% url 'categories' %}">Categories</a></li>
                     {% if not categories %}
                         <li class="breadcrumb-item">All Products</li>
                     {% else %}

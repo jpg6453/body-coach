@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+  
+{% endblock %}
+
+{% block content %}
+
+<!--Breadcrumbs-->
+<div class="container col-xl-10">
+    <div class="row mb-5">
+        <nav aria-label="breadcrumb">
+            <ul class="breadcrumb">
+                <li class="breadcrumb-item"><a href="{% url 'home' %}">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Categories</a></li>    
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<!--Heading-->
+
+<div class="col-xl-10 offset-1 mb-4">
+    <h1> Browse Categories</h1>
+</div>
+
+<div class="container col-xl-10">
+    <a href="{% url 'products' %}?category=cookware" class="btn btn-blue-outline m-1">Cookware</a>
+    <a href="{% url 'products' %}?category=ovenware" class="btn btn-blue-outline m-1">Ovenware</a>
+    <a href="{% url 'products' %}?category=food_prep" class="btn btn-blue-outline m-1">Food Prep</a>
+    <a href="{% url 'products' %}?category=storage" class="btn btn-blue-outline m-1">Storage</a>
+</div>      
+{% endblock %}

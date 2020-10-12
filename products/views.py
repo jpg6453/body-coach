@@ -33,3 +33,17 @@ def product_detail(request, product_id):
     }
 
     return render(request, 'products/product_detail.html', context)
+
+
+def categories(request):
+
+    """ Display all categories """
+    categories = None
+
+    if 'category' in request.GET:
+        categories = Category.objects.filter(name__in=categories)
+
+    context = {
+        'categories': categories,
+    }
+    return render(request, 'products/categories.html', context)
