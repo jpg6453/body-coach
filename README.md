@@ -24,7 +24,7 @@
 - Home - takes the user back to the home page from anywhere on the site.
 - Kitchenware - dropdown menu that allows users to view products by category or "All".
 - Search - Users can enter a search term to filter the products listed on the site.
-- ```if user.is_authenticated``` 
+- ```if user.is_authenticated``` logic is used to change the links that appear on the right side of the navbar. 
 - The nav has class ```navbar-expand-lg``` applied so the full navbar is available for larger screen sizes.
 - The has also been set to ```sticky-top``` so it is always available to the user for easy navigation whatever the scroll position of the window.
 
@@ -34,30 +34,27 @@
 - The links have the ```target=_blank``` property to open these platforms in a new window. 
 - The links point to the homepage of each platform at this time.
 
-### Home Page
+### User Registration and Authentication
+
+- This is handled by Django's built in **Allauth** integrations.
+
+### Home App
 
 **Hero Image**
-- 
-
-**Get Started Button**
-- 
-### Products Page
+- ```100vh``` hero image with **Get Started** button which links to the products page at the moment. In a future release the button will navigate to the **Plans** view.
 
 
-
-- 
-
-### Product Detail Page
-- 
+### Products App
+- **Products view** - displays the products contained in the store. These can be filtered by category using the buttons at the top.
+- **Product Detail View** - shows the details of an individual product and the user can select a qty and **add to bag** with a click.
 
 
-### Bag
-- 
+### Bag App
+- Provides a summary of items added to the bag. The user can adjust the qty per item, or remove the item(s) from the bag altogether. Further, there are options to **Continue Shopping** or **Secure Checkout**.
 
-### Checkout Page
-- 
-
-### Checkout Success Page
+### Checkout App
+- The user is presented with a form to enter their personal & delivery details. These details are saved if the user **logs in**.
+- The payment input incorporates **Stripe** payments.
 
 
 ## Features Left to Implement
@@ -65,8 +62,16 @@
 - Paginate the products page to improve UX expecially on mobile.
 
 **Plans App** 
-- Enable users to purchase
+- Enable users to select an exercise/nutrition plan. This could be via one-off payment or subscription model.
 
+**Profile App** 
+- To provide a summary of an authenticted users personal details currently stored in the database and any order history.
+
+**Client App** 
+- A **Community** area where clients can share tips and encouragement via a message posting system. Access to this app would be for users that have previously purchased an exercise or nutrition plan.
+
+**Product Management App** 
+- Provide **CRUD** functionality in the front end for the sites **admin** to manage products contained in the database.
 
 
 
