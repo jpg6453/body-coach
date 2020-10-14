@@ -1,6 +1,6 @@
 # Body Coach 
 
-[Body Coach](https://foodfactoryrecipes.herokuapp.com/) has been updated for 2020, the new plans give you the tools to transform your body and get you fitter, stronger, healthier and happy. 15 new and exclusive real-time workouts, online support from our team of support coaches, and access to our official Facebook community group.
+[Body Coach](https://body-coach.herokuapp.com/) has been updated for 2020, the new plans give you the tools to transform your body and get you fitter, stronger, healthier and happy. 15 new and exclusive real-time workouts, online support from our team of support coaches, and access to our official Facebook community group.
 ## UX
 
 ### Project Goal
