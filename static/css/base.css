@@ -14,7 +14,7 @@ header.masthead {
     background-position: center center;
     background-attachment: scroll;
     background-size: cover;
-    height: 35rem;
+    height: 100vh;
 }
 
 header.masthead .masthead-content {
@@ -37,7 +37,7 @@ header.masthead .masthead-content .masthead-subheading {
 	background-size: cover;
 	background-repeat: no-repeat;
     background-position: center;
-	height: 40rem;
+	height: 100vh;
 	position: relative;
 }
 
@@ -45,7 +45,7 @@ header.masthead .masthead-content .masthead-subheading {
 	position: absolute;
 	top: 0;
 	left: 0;
-	height: 35rem;
+	height: 100vh;
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.15);
 }
