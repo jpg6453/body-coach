@@ -5,9 +5,8 @@
 
 ### Project Goal
 
-[FILL IN]:
-- Browse recipes
-- 
+- The purpose of the site is to sell exercise and nutrition plans, along with a new range of kitchenware for clients to cook their way to fitness.
+
 
 #### User goals
 - Sign up to a fitness/nutrition plan that will improve my health and wellbeing.
@@ -16,20 +15,6 @@
 #### Business goals
 - Maximise uptake of the fitness and nutition plans.
 - Drive a new income stream from the new kitchenware range.
-
-#### User Stories
-
-As a user visiting the site, I would like:
-- Select a fitness plan that is right for my needs.
-
-
-
-### Wireframes
-
-[Figma](https://www.figma.com/) was used to produce the wireframes for the desktop and mobile layouts of the site.
-
-- [Desktop]()
-- [Mobile]()
 
 ## Existing Features
 ### Elements on All Pages 
@@ -65,10 +50,6 @@ As a user visiting the site, I would like:
 ### Product Detail Page
 - 
 
-<div align="center">
-<img src="" alt="Form Validation" >
-</div>
-
 
 ### Bag
 - 
@@ -81,9 +62,10 @@ As a user visiting the site, I would like:
 
 ## Features Left to Implement
 **Pagination** 
-- 
+- Paginate the products page to improve UX expecially on mobile.
+
 **Plans App** 
-- 
+- Enable users to purchase
 
 
 
@@ -96,6 +78,10 @@ As a user visiting the site, I would like:
 
 
 - This project was built with HTML, CSS, JavaScript & Python programming languages.
+- [Django](https://www.djangoproject.com/) python web framework.
+- [Stripe](https://stripe.com) to process secure payments.
+- [AWS S3 Bucket](https://aws.amazon.com/) to serve images and static files.
+- [Heroku](https://www.heroku.com/home) to host the site and built in **Postgres** database.
 - [jQuery](https://jquery.com/)
     - Used for responsive navbar and DOM manipulation
 - [Popper.js](https://popper.js.org/)
@@ -113,65 +99,6 @@ As a user visiting the site, I would like:
 - [Jinja](http://jinja.pocoo.org/docs/2.10/) templating logic to construct html.
 
 
-# Testing 
-
-### Code Validation
-
-Validation tools were used to check that the website code was valid:
-
-- [W3C Mark Up Validation](https://validator.w3.org) for HTML.
-    - Passed test with no warnings.
-- [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) for CSS.
-    - Passed all tests with no issues.
-- [JSHint](https://jshint.com/) for JavaScript.
-    - One warning regarding an unused variable ```validation```. My feeling is that this is an empty array until the form **submit** button is clicked and the script then checks for forms with the ```needs-validation``` class.
-- [PEP8](http://pep8online.com/) for Python
-    - 3 ```line too long``` issues and 1 ```trailing whitespace```. 
-
-### User Stories Testing
-
-**To be inspired to cook by the range of recipes**
-
-
-### Manual Functionality Testing
-
-**Browsers**
-
-The site was tested on the following browsers: Chrome, Firefox, Safari, Internet Explorer & Edge on desktop and laptop devices.
-
-**Mobile Devices**
-
-- The devices used for testing were:
-    - iPhone 6s, XR
-    - iPad Air 
-    - Samsung S10
-
-**Navigation**
-
-- On desktop, go to the landing page.
-- Reduce the browser size down to verify that the navbar is responsive and switches from the expanded, inline menu to burger menu at the medium screen size.
-- Check that the burger button expands and collapses the menu to give access to the nav items.
-- Click on the **Body Coach** logo in the top left of the navbar and the **home** link in turn and confirm that both link to the home page. 
-- Click on the kitchenware dropdown and select each dropdown category in turn and verify it takes the user to the relevant product page.
-- 
-- Check that the navbar becomes sticky when the window is scrolled down.
-- All above functionality and checks carried out on tablet and mobile.
-
-**Hero Image and Get started button**
-
-- Check all screen sizes and confirm that the background image looks good.
-- 
-
-
-
-
-
-
-
-
-
-
-
 
 
 # Deployment
@@ -184,8 +111,6 @@ Pre-requisites:
 - [Git](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
 - [PIP](https://pip.pypa.io/en/stable/installing/)
 - [Python 3](https://www.python.org/downloads/)
-- An account at [MongoDB Atlas](https://www.mongodb.com/cloud/atlas). 
-    - How to set up your Mongo Atlas account [here](https://docs.atlas.mongodb.com/).
 
 ### Instructions
 
@@ -205,7 +130,16 @@ git clone https://github.com/jpg6453/body-coach
 ```
 pip -r requirements.txt
 ```
-9. Create an environment variable and set this to the value of your MONGO_URI. How to do this will vary by IDE and individual set-up.
+9. Create local environment variables for: 
+
+ Key | Value |
+ --- | ---
+DEVELOPMENT | TRUE 
+SECRET_KEY | < ENTER VALUE >
+STRIPE_PUBLIC_KEY | < ENTER VALUE >
+STRIPE_SECRET_KEY | < ENTER VALUE >
+
+
 10. You can now run the application with the command
 ```
 python3 manage.py runserver
@@ -268,7 +202,7 @@ USE_AWS | TRUE
 
 ## Acknowledgements
 
-A big thank you to my Code Institute Mentor, Maranatha Ilesanmi, for demonstrating concepts and providing focus when time was tight! 
+A big thank you to my Code Institute Mentor, Maranatha Ilesanmi, for demonstrating concepts and providing focus when time was tight! It is just a pity that the project does not reflect the time and effort that was put into it. Frankly it's a bit of a mess!
 
 ## Disclaimer
 
