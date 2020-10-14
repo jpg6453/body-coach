@@ -13,7 +13,7 @@
 - Browse and potentially purchase products from the site.
 
 #### Business goals
-- Maximise uptake of the fitness and nutition plans.
+- Maximise uptake of the fitness and nutrition plans.
 - Drive a new income stream from the new kitchenware range.
 
 ## Existing Features
