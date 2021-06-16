@@ -80,6 +80,10 @@ header.masthead .masthead-content .masthead-subheading {
     display:flex;
     align-items: center;
     justify-content: center;
+    -webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
     font-size:1.15rem;
     color:#f0f0f0;
 }
