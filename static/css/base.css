@@ -9,7 +9,7 @@ header.masthead {
     overflow: hidden;
     padding-top: calc(5rem + 72px);
     padding-bottom: 7rem;
-    background: url('/media/healthy.jpg') no-repeat fixed; ;
+    background: url('/media/healthy.jpg') no-repeat fixed;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
@@ -216,7 +216,7 @@ header.masthead .masthead-content .masthead-subheading {
   header.masthead {
     padding-top: 2.5rem;
     padding-left: 3rem;
-    height: 30rem
+    height: 30rem;
     }
   header.masthead .masthead-content .masthead-heading {
     font-size: 1.7rem;
