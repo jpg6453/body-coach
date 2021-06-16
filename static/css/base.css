@@ -71,13 +71,17 @@ header.masthead .masthead-content .masthead-subheading {
     max-height:30rem;
 }
 
-/*-------------------------------------------------------------------------CTA*/
-
-.call-to-action {
-	background-color: #2d2d30;
-	background: url('/media/nike_runner.jpg');
-	background-size: cover;
-	height: 15rem;
+/*-------------------------------------------------------------------------plan-steps*/
+.plan-steps{
+    background-color: red;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:1.15rem;
+    color:#f0f0f0;
 }
 
 /*-------------------------------------------------------------------------footer*/
