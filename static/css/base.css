@@ -73,7 +73,7 @@ header.masthead .masthead-content .masthead-subheading {
 
 /*-------------------------------------------------------------------------plan-steps*/
 .plan-steps{
-    background-color: red;
+    background-color: #ff0000;
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
