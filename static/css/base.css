@@ -77,6 +77,8 @@ header.masthead .masthead-content .masthead-subheading {
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
     align-items: center;
     justify-content: center;
