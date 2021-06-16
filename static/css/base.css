@@ -199,3 +199,36 @@ header.masthead .masthead-content .masthead-subheading {
 .toast-capper {
     height: 3px;
 }
+
+/*-------------------------------------------------------------------------media queries*/
+
+@media only screen and (max-width: 768px) {
+  header.masthead {
+    padding-top: 2.5rem;
+    padding-left: 3rem;
+    height: 30rem
+    }
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 1.7rem;
+    }
+    .text-container {
+        margin-left:.5rem;
+    }
+    header.masthead .masthead-content .masthead-subheading {
+    font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    header.masthead .masthead-content .masthead-subheading {
+    font-size: .8rem;
+    }
+    header.masthead {
+    padding-top: 2.5rem;
+    padding-left:0;
+    height: 20rem;
+    }
+    header.masthead .masthead-content .masthead-heading {
+    font-size: 1.5rem;
+    }
+}
